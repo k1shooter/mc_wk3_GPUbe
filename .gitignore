@@ -1,0 +1,38 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+outputs/
+uploads/
+# 모델 및 데이터
+pretrained_models/
+*.h5
+*.pt
+*.pkl
+*.ckpt
+*.onnx
+# cuDNN archive files
+cudnn-*-linux-x86_64*
+cudnn-*-archive*
+cudnn-linux-x86_64-*-cuda*
+cuda_11.8.0_520.61.05_linux.run
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
