@@ -25,11 +25,11 @@ def query_llm(user_feature, singer_feature):
         f"나의 pitch 평균: {user_feature.get('pitch_mean', 0):.1f}Hz, "
         f"표준편차: {user_feature.get('pitch_std', 0):.1f}Hz, "
         f"jitter: {user_feature.get('jitter_percent', 0):.2f}%, "
-        f"voiced 비율: {user_feature.get('voiced_ratio', 0):.1f}% "
+        f"voiced 비율: {user_feature.get('voiced_ratio', 0):.1f} "
         f"원곡 평균: {singer_feature.get('pitch_mean', 0):.1f}Hz, "
         f"표준편차: {singer_feature.get('pitch_std', 0):.1f}Hz, "
         f"jitter: {singer_feature.get('jitter_percent', 0):.2f}%, "
-        f"voiced: {singer_feature.get('voiced_ratio', 0):.1f}% "
+        f"voiced 비율율: {singer_feature.get('voiced_ratio', 0):.1f} "
         "차이점, 개선점, 예상 voice type/문제점, 연습 Point를 전문가로서 알려줘"
     )
     payload = {
